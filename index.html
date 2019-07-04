@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="address-int">
+        <form action="POST" class="address">
+            <div class="address-search">
+                <p>Digite seu CEP</p>
+                <input type="text" name="cep" id="cep" placeholder="Digite seu CEP">
+                <button type="submit" id="submit">Pesquisar</button>
+            </div>
+            <div class="address-result">
+                <p>Rua: </p><span id="street"></span><br>
+                <p>Bairro: </p><span id="neighborhood"></span><br>
+                <p>Cidade: </p><span id="city"></span><br>
+                <p>Estado: </p><span id="state"></span>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/address.js"></script>
+
+</body>
+
+</html>

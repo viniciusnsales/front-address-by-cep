@@ -1,0 +1,35 @@
+body, h1, h2, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+.address-int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.address-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 40px;
+    width: 400px;
+    height: 100px;
+}
+
+.address-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
